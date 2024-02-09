@@ -7,4 +7,6 @@ The project includes the following :
 | Project                |
 |------------------------|
 | guess Number           |                                         
-| guess Word             |                                   
+| guess Word             |      
+| rock, paper, scissors  |     
+
