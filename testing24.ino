@@ -1,4 +1,3 @@
-// Ultrasonic
 #define TRIG_ORGANIK 2
 #define ECHO_ORGANIK 3
 #define TRIG_ANORGANIK 4
@@ -71,7 +70,7 @@ void loop() {
   float distanceAnorganik = getDistance(TRIG_ANORGANIK, ECHO_ANORGANIK);
   float distanceB3 = getDistance(TRIG_B3, ECHO_B3);
 
-  // Kirim data distance dalam format JSON
+  // data distance format JSON
   Serial.print("{\"organik\":");
   Serial.print(distanceOrganik);
   Serial.print(",\"anorganik\":");
